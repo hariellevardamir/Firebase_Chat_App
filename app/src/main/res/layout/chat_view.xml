@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chatContent"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:padding="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtReceiverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="3dp"
+            android:text="name_of_the_user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="3dp"
+            android:text="email_of_the_user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
